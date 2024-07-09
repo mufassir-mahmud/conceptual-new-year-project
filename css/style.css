@@ -2,3 +2,214 @@
 body{
     font-family: "Merriweather", serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-section{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 24px auto;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-sub-title{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+.banner-title{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+text-align: center;
+}
+.catagories-container{
+    max-width: 802.9px;
+    height: 806px;
+    
+    margin: 120px auto;
+}
+.catagories-container{
+    text-align: center;
+}
+.catagories-title{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 48px;
+}
+.catagories-description{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.catagories-sub-title{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+.img-container{
+    margin-top: 48px;
+    width: 802.9px;
+    height: 500px;
+}
+.img-container img{
+    height: 100%;
+    width: 100%;
+}
+.midnight-section{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 120px auto;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+
+}
+.midnight-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 124px;
+}
+.midnight-img{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.midnight-title{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.midnight-description{
+    color: rgba(255, 255, 255, 0.8);
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.joinus-btn{
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    background:none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid purple;
+    width: 103px;
+}
+.holiday-section{
+    width: 1320px;
+    height: 986.07px;
+    border: 1px solid red;
+    margin: 0 auto 50px;
+    position: relative;
+}
+.holiday-content{
+    width: 1068px;
+    height: 260px;
+    margin: 30px auto 64px;
+    text-align: center;
+}
+.holiday-sub-title{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    
+}
+.holiday-title{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+}
+.holiday-span{
+    color: red;
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 76.8%;
+
+    }
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.protfolio-section{
+    
+}
